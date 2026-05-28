@@ -1,0 +1,232 @@
+[
+{
+    "key": "group_lpmini_main",
+    "title": "Главная страница (LP Mini)",
+    "fields": [
+        {
+            "key": "field_logo",
+            "label": "Логотип",
+            "name": "logo",
+            "type": "image",
+            "return_format": "url",
+            "preview_size": "medium"
+        },
+        {
+            "key": "field_header_btn_text",
+            "label": "Текст кнопки в шапке",
+            "name": "header_btn_text",
+            "type": "text",
+            "default_value": "Стоимость"
+        },
+        {
+            "key": "field_hero_title_before",
+            "label": "Заголовок — первая часть",
+            "name": "hero_title_before",
+            "type": "text",
+            "default_value": "Оформляем"
+        },
+        {
+            "key": "field_hero_title_accent",
+            "label": "Заголовок — акцент (синий)",
+            "name": "hero_title_accent",
+            "type": "text",
+            "default_value": "загранпаспорта"
+        },
+        {
+            "key": "field_hero_title_after",
+            "label": "Заголовок — вторая строка",
+            "name": "hero_title_after",
+            "type": "text",
+            "default_value": "в Москве от 1 дня"
+        },
+        {
+            "key": "field_hero_subtitle",
+            "label": "Подзаголовок героя",
+            "name": "hero_subtitle",
+            "type": "textarea",
+            "rows": 2,
+            "default_value": "Без очередей и справок. Через МФЦ г. Москвы. Акция до"
+        },
+        {
+            "key": "field_skidka_label",
+            "label": "Скидка — подпись",
+            "name": "skidka_label",
+            "type": "text",
+            "default_value": "Скидка до"
+        },
+        {
+            "key": "field_skidka_value",
+            "label": "Скидка — значение",
+            "name": "skidka_value",
+            "type": "text",
+            "default_value": "-30%"
+        },
+        {
+            "key": "field_skidka_icon",
+            "label": "Скидка — иконка",
+            "name": "skidka_icon",
+            "type": "image",
+            "return_format": "url"
+        },
+        {
+            "key": "field_hero_image",
+            "label": "Картинка героя",
+            "name": "hero_image",
+            "type": "image",
+            "return_format": "url"
+        },
+        {
+            "key": "field_hero_advantages",
+            "label": "Преимущества (3 блока)",
+            "name": "hero_advantages",
+            "type": "repeater",
+            "min": 0,
+            "layout": "block",
+            "button_label": "+ Добавить преимущество",
+            "sub_fields": [
+                {
+                    "key": "field_advantage_icon",
+                    "label": "Иконка",
+                    "name": "icon",
+                    "type": "image",
+                    "return_format": "url"
+                },
+                {
+                    "key": "field_advantage_text",
+                    "label": "Текст",
+                    "name": "text",
+                    "type": "text"
+                }
+            ]
+        },
+        {
+            "key": "field_guarantee_image",
+            "label": "Гарантия — картинка",
+            "name": "guarantee_image",
+            "type": "image",
+            "return_format": "url"
+        },
+        {
+            "key": "field_guarantee_text",
+            "label": "Гарантия — текст (HTML разрешен)",
+            "name": "guarantee_text",
+            "type": "textarea",
+            "rows": 2,
+            "default_value": "Вы 100% получите паспорт от 5 до 10 лет <b>или мы вернем деньги</b>"
+        },
+        {
+            "key": "field_reviews_gallery",
+            "label": "Галерея отзывов (карусель)",
+            "name": "reviews_gallery",
+            "type": "repeater",
+            "min": 0,
+            "layout": "table",
+            "button_label": "+ Добавить отзыв",
+            "sub_fields": [
+                {
+                    "key": "field_review_image",
+                    "label": "Картинка отзыва",
+                    "name": "image",
+                    "type": "image",
+                    "return_format": "url"
+                }
+            ]
+        },
+        {
+            "key": "field_clients_text",
+            "label": "Социальное доказательство (HTML)",
+            "name": "clients_text",
+            "type": "textarea",
+            "rows": 2,
+            "default_value": "За 2023-2024 г. <b>нам доверили оформление</b> загранпаспорта 3452 клиента"
+        },
+        {
+            "key": "field_form_title",
+            "label": "Заголовок формы",
+            "name": "form_title",
+            "type": "textarea",
+            "rows": 2,
+            "default_value": "Узнайте стоимость оформления загранпаспорта от 1 дня со скидкой до 30%*"
+        },
+        {
+            "key": "field_form_subtitle",
+            "label": "Подзаголовок формы (перед датой)",
+            "name": "form_subtitle",
+            "type": "text",
+            "default_value": "Акция действует до"
+        },
+        {
+            "key": "field_form_btn_text",
+            "label": "Текст кнопки формы",
+            "name": "form_btn_text",
+            "type": "text",
+            "default_value": "Узнать стоимость"
+        },
+        {
+            "key": "field_form_what_value",
+            "label": "Скрытое поле формы — what",
+            "name": "form_what_value",
+            "type": "text",
+            "default_value": "Мини-лендинг"
+        },
+        {
+            "key": "field_contact_form_shortcode",
+            "label": "Шорткод Contact Form 7 (опционально)",
+            "name": "contact_form_shortcode",
+            "type": "text",
+            "instructions": "Если установлен Contact Form 7, вставьте сюда шорткод формы — он заменит встроенную форму"
+        },
+        {
+            "key": "field_form_disclaimer",
+            "label": "Дисклеймер под формой",
+            "name": "form_disclaimer",
+            "type": "text",
+            "default_value": "*условия акции уточняйте у менеджеров"
+        },
+        {
+            "key": "field_legal_text",
+            "label": "Юридический текст внизу",
+            "name": "legal_text",
+            "type": "textarea",
+            "rows": 2,
+            "default_value": "Информация не является публичной офертой и носит информационный характер"
+        },
+        {
+            "key": "field_favicon",
+            "label": "Favicon",
+            "name": "favicon",
+            "type": "image",
+            "return_format": "url"
+        },
+        {
+            "key": "field_gtm_id",
+            "label": "Google Tag Manager ID",
+            "name": "gtm_id",
+            "type": "text",
+            "default_value": "GTM-TTCZ6RF"
+        },
+        {
+            "key": "field_roistat_id",
+            "label": "Roistat ID",
+            "name": "roistat_id",
+            "type": "text",
+            "default_value": "0926e9d36649c864b00475ec0f2b6681"
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "page_type",
+                "operator": "==",
+                "value": "front_page"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "active": true
+}
+]
