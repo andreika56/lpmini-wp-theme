@@ -1,0 +1,11 @@
+/*
+Theme Name: LP Mini Visa Guru
+Theme URI: https://github.com/andreika56/lpmini-wp-theme
+Author: Andrei Kotov
+Description: WordPress тема для лендинга оформления загранпаспортов (Visa Guru). Сохраняет оригинальную верстку, контент редактируется через ACF поля.
+Version: 1.0.0
+License: GPL v2 or later
+Text Domain: lpmini
+*/
+
+/* Стили темы НЕ здесь. Они подключаются через functions.php из папки /css/style.css */
